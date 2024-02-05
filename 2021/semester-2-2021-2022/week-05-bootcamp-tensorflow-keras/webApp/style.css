@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right , #8a23bd, mediumpurple, #2879ca);
+}
+
+body > div {
+    text-align: center;
+}
+
+#output {
+    font-family: 'Consolas', 'Arial', Helvetica, sans-serif;
+    color: #101010;
+}
+
+@media (max-width: 710px) {
+    #output {
+        margin-top: 85px;
+    }
+}
+
+img {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: -1;
+}
+
+canvas {
+    border:1px solid #000000;
+}
